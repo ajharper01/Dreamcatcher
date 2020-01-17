@@ -1,0 +1,240 @@
+/*Main CSS*/
+html {
+  --first-color: #0429bb;
+  --second-color: #ffffff;
+  --third-color: #778899;
+  --fourth-color: #1d1d1f;
+}
+body {
+  font-family: "Gruppo", cursive;
+  /*font-family: 'Gruppo', cursive;
+font-family: 'Calligraffitti', cursive;
+font-family: 'Cormorant SC', serif;
+font-family: 'Metamorphous', cursive;
+font-family: "Gentium Book Basic", serif*/
+  font-size: 12px;
+  height: 100vh;
+  background-color: black; /* viewport heights */
+}
+h1 {
+  color: whitesmoke;
+  font-size: 4.209em;
+  /* font-family: 'Tangerine', cursive; */
+  text-shadow: 2px 2px 5px whitesmoke;
+}
+h2 {
+  font-size: 3.157em;
+  margin: 0;
+}
+h3 {
+  font-size: 2.369em;
+}
+li,
+p,
+label,
+input,
+button {
+  font-size: 1.777em;
+  color: var(--third-color);
+}
+figure,
+img {
+  /* Limit the width of all 'figures' and 'imgs' to be at most 100% of the size of the parent. */
+  max-width: 100%;
+}
+header {
+  background-color: var(--first-color);
+  padding: 1rem;
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+p {
+  margin: 0;
+  /* First number is top and bottom.
+    Second number is left and right. */
+  padding: 0 2.5rem;
+  text-align: center;
+  color: var(--third-color);
+}
+form div {
+  /* margin-bottom: 0.5rem;
+  max-width: 18rem; */
+  margin: 0.25rem 0;
+  width: 75vw;
+}
+label {
+  margin-right: 0.25rem;
+}
+input {
+  border: solid thin var(--first-color);
+  border-radius: 3px;
+  width: 100%;
+}
+input,
+textarea {
+  border: 1mm ridge var(--first-color);
+  border-radius: 3px;
+}
+footer {
+  color: var(--third-color);
+  padding: 0.5rem;
+}
+/*classes*/
+.align-center {
+  align-items: center;
+}
+.button {
+  border-radius: 3px;
+  padding: 0.5rem;
+  text-decoration: none;
+}
+nav > ul > a > li {
+  color: whitesmoke;
+}
+nav > ul > a > li:hover {
+  color: black;
+}
+.button:focus,
+.button:hover {
+  border: solid thin var(--first-color);
+  color: black;
+  background: lightslategray;
+  transition-property: background-color, color;
+  transition-duration: 1s, 1s;
+  transition-timing-function: ease, ease;
+}
+ul > a {
+  text-decoration: none;
+}
+.button a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+.card {
+  background-color: var(--third-color);
+  padding: 20px;
+  margin-top: 20px;
+}
+.contact-form {
+  margin: 40px;
+  padding: 20px;
+  contain: content;
+}
+.fab {
+  color: whitesmoke;
+  font-size: 4.209em;
+  text-shadow: 2px 2px 5px whitesmoke;
+}
+/*in the future add animation css here*/
+.fab:focus,
+.fab:hover {
+  transition: transform 0.5s;
+  transform: rotate(1turn);
+}
+.flex {
+  display: flex;
+  justify-content: center;
+}
+.flex--wrap {
+  flex-wrap: wrap;
+}
+.head-shot {
+  border-radius: 50%;
+  max-width: 50%;
+  justify-self: right;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-space-around {
+  justify-content: space-around;
+}
+.justify-space-between {
+  justify-content: space-between;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#Method div {
+  border-bottom: solid thick var(--first-color);
+  margin: 2rem 0;
+  padding-bottom: 2rem;
+  text-align: center;
+  color: whitesmoke;
+  justify-content: center;
+}
+#Resources div {
+  border-bottom: solid thin var(--secondary-color);
+  border-radius: 0.25rem;
+  box-shadow: 0 1rem 1.5rem -3px whitesmoke,
+    0 0.4rem 0.6rem -2px rgba(0, 0, 0, 0.05);
+  margin: 2rem 0;
+  padding-bottom: 2rem;
+  text-align: center;
+  width: calc(33vw - 5rem);
+}
+#mainPageImage {
+  background: url(https://www.thebluediamondgallery.com/wooden-tile/images/solutions.jpg)
+    top center no-repeat;
+  background-size: cover;
+  height: 75vh;
+  width: 100vw;
+}
+/* I set a breakpoint of 768px for my first MEDIA QUERY.(PHONE) */
+
+@media screen and (min-width: 768px) {
+  form {
+    padding: 1rem 0;
+  }
+  form > div {
+    max-width: 75vw;
+  }
+  .flex--sm {
+    flex-wrap: wrap;
+  }
+  h1 {
+    font-size: 2.103em;
+  }
+}
+.img {
+  max-width: 40%;
+}
+/* I set a breakpoint of 885px for my second MEDIA QUERY.(TABLET)*/
+
+@media screen and (min-width: 885px) {
+  #Organized {
+    background: url(https://www.thebluediamondgallery.com/wooden-tile/images/organize.jpg)
+      top center no-repeat;
+    background-size: cover;
+    height: 75vh;
+    width: 100vw;
+  }
+  .flex--md {
+    flex-wrap: wrap;
+  }
+  figure {
+    max-width: 100%;
+    justify-content: center;
+  }
+}
+
+/* I set a breakpoint of 1440px for my third MEDIA QUERY.(Desktop) */
+
+@media screen and (min-width: 1440px) {
+  .flex--lg {
+    flex-wrap: wrap;
+  }
+  #Method > div {
+    box-shadow: var(--first-color);
+    border: solid 3px var(--second-color);
+    border-radius: 0.25rem;
+    padding-bottom: 2rem;
+    text-align: center;
+  }
+}
