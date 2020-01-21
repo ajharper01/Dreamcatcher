@@ -13,7 +13,7 @@ const router = new Navigo(location.origin);
 function render(st = state.Home) {
   document.querySelector("#root").innerHTML = `${Header(st)} ${Nav(
     state.Links
-  )} ${Main(st)} ${Footer(st)}`;
+  )} ${Main(st)} ${Footer}`;
 
   render.updatePageLinks();
 }
