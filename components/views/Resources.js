@@ -2,7 +2,7 @@
 //   return resources
 //     .map(({ title, sources }) => {
 //       return `
-//         <h2>${title}</h2>
+//       <h2>${title}</h2>
 //         <img src=${pictures}/>
 //         <p>${sources}</p>
 //     `;
