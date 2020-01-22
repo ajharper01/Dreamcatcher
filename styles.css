@@ -172,7 +172,7 @@ ul > a {
 #Resources div {
   border-bottom: solid thin var(--secondary-color);
   border-radius: 0.25rem;
-  box-shadow: 0 1rem 1.5rem -3px whitesmoke,
+  box-shadow: 0 1rem 1.5rem -3px #07c4dd,
     0 0.4rem 0.6rem -2px rgba(0, 0, 0, 0.05);
   margin: 2rem 0;
   padding-bottom: 2rem;
