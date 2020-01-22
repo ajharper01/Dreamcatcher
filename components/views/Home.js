@@ -16,6 +16,6 @@ export default `<div class="mobile-hidden"></div>
         <div>
           <a href="./Keep/">
       <figure><img src ="https://s0.geograph.org.uk/geophotos/02/66/25/2662543_193e1071.jpg" alt="Keep" class="head-shot"></figure></a>
-      <p>If you think of something that may work for your project, store it safely in the <b class="term">KEEP</b>! If you need help, hit (Contact or need...) above.</p>
+      <p>If you think of something that may work for your project, store it safely in the <b class="term"><a href="./Keep/">KEEP</a></b>! If you need help, hit (Contact or need...) above.</p>
           </div>
       </div>`;
