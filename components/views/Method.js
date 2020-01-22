@@ -31,7 +31,7 @@ export default `<div>
         <a href="http://instream.io/en/who-is-your-customer-step-by-step-guide-on-how-to-define-the-customer-profile/">
         <figure><img src="https://cdn.pixabay.com/photo/2016/10/19/12/16/needle-in-a-haystack-1752846_960_720.jpg" alt="" /></figure></a>
         <h2>Pinpoint Audience</h2>
-          <p>Here, your <b class="term">SPECIFIC</b> customer, the problem they face, and your solution for that problem should be set it stone. Ask the questions: Is this a realistic problem, is my SPA solving their specific problem, can i be more specific? </p>
+          <p>Here, your <b class="term">SPECIFIC</b> customer, the problem they face, and your solution for that problem should be set it stone. Ask the questions: Is this a realistic problem, is my SPA solving their specific problem, can I be more specific? </p>
       </div>
       <div>
         <a href="https://www.mindtools.com/pages/article/smart-goals.htm">
