@@ -1,4 +1,4 @@
-# Savvy Coders Project Start 
+# Savvy Coders Project
 
 ## Overview
 
