@@ -5,7 +5,7 @@ export default `<div class="mobile-hidden"></div>
       <div class="flex--sm">
         <div>
           <a href="https://www.youtube.com/watch?v=zu7QG81Eai8&feature=youtu.be"> <figure><img src ="https://raw.githubusercontent.com/ajharper01/spa-oct-2019/master/dnimageme.jpg" alt="Image of Creator" class="head-shot"></figure></a>
-            <p> Hello, I am Andrew Harper. Team Dream was created to help you develop your <b class="term">PROJECT</b>. If you care to learn more about me, click my photo.
+            <p> Hello, I am Andrew Harper. Project Dreamcatcher was created to help you develop your <b class="term">PROJECT</b>. If you care to learn more about me, click my photo.
             </p>
           </div>
         <div>
